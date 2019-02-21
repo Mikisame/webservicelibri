@@ -31,26 +31,52 @@ namespace InterfacciaClient
         {
             InitializeComponent();
         }
+        string indirizzo;
 
         private void btnLoad_Click(object sender, RoutedEventArgs e)
         {
-            string url = txtURL.Text;
-            GetRequest(url);
+            indirizzo = txtURL.Text;
         }
-    }
-    async static void GetRequest(string url)
-    {
-        using (HttpClient client = new HttpClient())
+        async static void GetRequest(string urlM)
         {
-            using (HttpResponseMessage response = await client.GetAsync(url))
+            using (HttpClient client = new HttpClient())
             {
-                using (HttpContent content = response.Content)
-                {//possiamo usare HttpContentHeader headers = content.Headers;
-                    string mycontent = await content.ReadAsStringAsync();
-                    MessageBox.Show(mycontent);
+                using (HttpResponseMessage response = await client.GetAsync(urlM))
+                {
+                    using (HttpContent content = response.Content)
+                    {//possiamo usare HttpContentHeader headers = content.Headers;
+                        string mycontent = await content.ReadAsStringAsync();
+                        MessageBox.Show(mycontent);
+                    }
+
                 }
 
             }
-
         }
+
+        private void btnUltimiArrivi_Click(object sender, RoutedEventArgs e)
+        {
+            string url = indirizzo + "?service=1";
+            GetRequest(url);
+        }
+        private void btnScont_Click(object sender, RoutedEventArgs e)
+        {
+            string url = indirizzo + "?service=2";
+            GetRequest(url);
+        }
+
+        private void btnArchiv_Click(object sender, RoutedEventArgs e)
+        {
+            string url = indirizzo + "?service=3";
+            GetRequest(url);
+        }
+
+        private void btnAcquist_Click(object sender, RoutedEventArgs e)
+        {
+            string url = indirizzo + "?service=4";
+            GetRequest(url);
+        }
+
+
     }
+
