@@ -1,0 +1,32 @@
+﻿<Window x:Class="InterfacciaClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfacciaClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtURL" HorizontalAlignment="Left" Height="23" Margin="65,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="606"/>
+        <Label Content="source:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="50"/>
+        <Button x:Name="btnLoad" Content="Load" HorizontalAlignment="Left" Margin="693,10,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="btnLoad_Click" />
+        <Button x:Name="btnUltimiArrivi" Content="quantità &quot;ultimi arrivi&quot; in reparto &quot;fumetti&quot;" HorizontalAlignment="Left" VerticalAlignment="Top" Width="335" Margin="10,66,0,0" Click="Button_Click"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="363,63,0,0" VerticalAlignment="Top" Width="405"/>
+        <ListBox HorizontalAlignment="Left" Height="299" Margin="363,110,0,0" VerticalAlignment="Top" Width="405"/>
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="270,389,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnScont" Content="libri scontati in tutti i reparti" HorizontalAlignment="Left" VerticalAlignment="Top" Width="335" Margin="10,115,0,0"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="335" Margin="10,154,0,0"/>
+        <Button x:Name="btnArchiv" Content="Libri archiviati nel seguente periodo:" HorizontalAlignment="Left" VerticalAlignment="Top" Width="312" Margin="21,169,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" Margin="181,214,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Margin="21,214,0,0"/>
+        <Label Content="Data inizio" HorizontalAlignment="Left" Margin="21,194,0,0" VerticalAlignment="Top" Width="155"/>
+        <Label Content="Data fine:" HorizontalAlignment="Left" Margin="181,194,0,0" VerticalAlignment="Top" Width="152"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="104" Stroke="Black" VerticalAlignment="Top" Width="335" Margin="10,274,0,0"/>
+        <Label Content="Codice Carrello" HorizontalAlignment="Left" Margin="21,274,0,0" VerticalAlignment="Top" Height="27" Width="113"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="21,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113"/>
+        <Button x:Name="btnAcquist" Content="elenco libri acquistati e numero copie" HorizontalAlignment="Left" Margin="21,339,0,0" VerticalAlignment="Top" Width="312"/>
+        <Label Content="Nome Utente corrispondente:" HorizontalAlignment="Left" Margin="139,275,0,0" VerticalAlignment="Top" Width="194"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="139,297,0,0" VerticalAlignment="Top" Width="194"/>
+
+    </Grid>
+</Window>
