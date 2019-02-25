@@ -1,0 +1,10 @@
+{"book":
+	[ 
+		{"ID":01,"titolo":"Hunger games","prezzo":18,"numpagine":"362","rilegatura":"si","pubblicazione":"2008","collana":"i Moderni", "archiviazione":"2010", "immagine":"null","reparto":5,"editore":"Mondadori","autore":"Suzanne Collins"},
+		{"ID":02,"titolo":"900","prezzo":15,"npagine":"138","rilegato":"si","pubblicazione":"1994","collana":"Da Oscar", "archiviazione":"2010", "immagine":"null","reparto":5,"editore":"HOEPLI","autore":"Alessandro Baricco"},
+		{"ID":03,"titolo":"Iron Man","prezzo":6,"npagine":"80","rilegato":"no","pubblicazione":"1999","collana":"I Grandi Fumetti", "archiviazione":"2011", "immagine":"null","reparto":4,"editore":"Cassell","autore":"Robert Louis Stevenson"},
+		{"ID":04,"titolo":"niente di nuovo sul fronte occidentale","prezzo":10,"npagine":"100","rilegato":"si","annopubb":"1929","collana":"i classici", "dataarch":"2006", "immagine":"null","reparto":5,"editore":"Ullstein Verlag","autore":"Erich Maria Remarque"},
+		{"ID":05,"titolo":"Dieci piccoli indiani","prezzo":8,"npagine":"70","rilegato":"no","annopubb":"1939","collana":"classici illustrati", "dataarch":"1996", "immagine":"null","reparto":2,"editore":"Mondadori","autore":"Agatha Christie"},
+		{"ID":06,"titolo":"Se non ora, quando?","prezzo":16,"npagine":"200","rilegato":"si","annopubb":"1982","collana":"Einaudi tascabili", "dataarch":"1991", "immagine":"null","reparto":1,"editore":"adelphi","Einaudi":"Primo Levi"}
+	] 
+}
