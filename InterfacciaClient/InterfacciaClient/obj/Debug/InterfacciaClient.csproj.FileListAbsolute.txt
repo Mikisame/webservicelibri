@@ -1,0 +1,15 @@
+C:\Users\matteo.iaconis\Documents\webservicelibri\InterfacciaClient\InterfacciaClient\obj\Debug\InterfacciaClient.csprojAssemblyReference.cache
+C:\Users\matteo.iaconis\Documents\webservicelibri\InterfacciaClient\InterfacciaClient\obj\Debug\MainWindow.g.cs
+C:\Users\matteo.iaconis\Documents\webservicelibri\InterfacciaClient\InterfacciaClient\obj\Debug\App.g.cs
+C:\Users\matteo.iaconis\Documents\webservicelibri\InterfacciaClient\InterfacciaClient\obj\Debug\InterfacciaClient_MarkupCompile.cache
+C:\Users\matteo.iaconis\Documents\webservicelibri\InterfacciaClient\InterfacciaClient\obj\Debug\InterfacciaClient_MarkupCompile.lref
+C:\Users\matteo.iaconis\Documents\webservicelibri\InterfacciaClient\InterfacciaClient\bin\Debug\InterfacciaClient.exe.config
+C:\Users\matteo.iaconis\Documents\webservicelibri\InterfacciaClient\InterfacciaClient\bin\Debug\InterfacciaClient.exe
+C:\Users\matteo.iaconis\Documents\webservicelibri\InterfacciaClient\InterfacciaClient\bin\Debug\InterfacciaClient.pdb
+C:\Users\matteo.iaconis\Documents\webservicelibri\InterfacciaClient\InterfacciaClient\obj\Debug\MainWindow.baml
+C:\Users\matteo.iaconis\Documents\webservicelibri\InterfacciaClient\InterfacciaClient\obj\Debug\InterfacciaClient.g.resources
+C:\Users\matteo.iaconis\Documents\webservicelibri\InterfacciaClient\InterfacciaClient\obj\Debug\InterfacciaClient.Properties.Resources.resources
+C:\Users\matteo.iaconis\Documents\webservicelibri\InterfacciaClient\InterfacciaClient\obj\Debug\InterfacciaClient.csproj.GenerateResource.cache
+C:\Users\matteo.iaconis\Documents\webservicelibri\InterfacciaClient\InterfacciaClient\obj\Debug\InterfacciaClient.csproj.CoreCompileInputs.cache
+C:\Users\matteo.iaconis\Documents\webservicelibri\InterfacciaClient\InterfacciaClient\obj\Debug\InterfacciaClient.exe
+C:\Users\matteo.iaconis\Documents\webservicelibri\InterfacciaClient\InterfacciaClient\obj\Debug\InterfacciaClient.pdb
