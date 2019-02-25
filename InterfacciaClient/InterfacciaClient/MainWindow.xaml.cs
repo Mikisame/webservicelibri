@@ -32,12 +32,13 @@ namespace InterfacciaClient
             InitializeComponent();
         }
         string indirizzo;
+        string mycontent;
 
-        private void btnLoad_Click(object sender, RoutedEventArgs e)
+        async private void btnLoad_Click(object sender, RoutedEventArgs e)
         {
             indirizzo = txtURL.Text;
         }
-        async static void GetRequest(string urlM)
+        async static Task GetRequest(string urlM)
         {
             using (HttpClient client = new HttpClient())
             {
@@ -45,7 +46,7 @@ namespace InterfacciaClient
                 {
                     using (HttpContent content = response.Content)
                     {//possiamo usare HttpContentHeader headers = content.Headers;
-                        string mycontent = await content.ReadAsStringAsync();
+                        mycontent = await content.ReadAsStringAsync();
                         MessageBox.Show(mycontent);
                     }
 
@@ -54,24 +55,27 @@ namespace InterfacciaClient
             }
         }
 
-        private void btnUltimiArrivi_Click(object sender, RoutedEventArgs e)
-        {
+        private async void btnUltimiArrivi_Click(object sender, RoutedEventArgs e)
+        {           
             string url = indirizzo + "?service=1";
             GetRequest(url);
+            Task task = GetRequest(url);
+            await task;
+
         }
-        private void btnScont_Click(object sender, RoutedEventArgs e)
+        private async void btnScont_Click(object sender, RoutedEventArgs e)
         {
             string url = indirizzo + "?service=2";
             GetRequest(url);
         }
 
-        private void btnArchiv_Click(object sender, RoutedEventArgs e)
+        private async void btnArchiv_Click(object sender, RoutedEventArgs e)
         {
             string url = indirizzo + "?service=3";
             GetRequest(url);
         }
 
-        private void btnAcquist_Click(object sender, RoutedEventArgs e)
+        private async void btnAcquist_Click(object sender, RoutedEventArgs e)
         {
             string url = indirizzo + "?service=4";
             GetRequest(url);
@@ -79,4 +83,5 @@ namespace InterfacciaClient
 
 
     }
+}
 
