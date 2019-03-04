@@ -1,7 +1,8 @@
 <?php
+
  function get_libri($find, $find2){
 	$libri=0;
-	$str = file_get_contents('C:\Users\marco.costanzo\Documents\webservicelibri\Libri.json');
+	$str = file_get_contents('C:\xampp\htdocs\cartella\Filegiusti\Libri.json');
 	$libri2 = json_decode($str, true); 
 	
 	foreach($find2 as $id)

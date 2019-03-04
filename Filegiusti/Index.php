@@ -1,8 +1,15 @@
 <?php
+
 // process client request (via URL)
 	header ("Content-Type_application/json");
 	include ("getReparto.php");
+	include ("getCategorie.php");
+	include ("getLibri.php");
+	include("getSconti.php");
+	include("getSconti2.php");
 	$libri_categorie= array();
+	$Libri_sconti= array();
+	$Libri_sconti2= array();
 	$libri = array();
 	if(!empty($_GET['service'])){
 	
@@ -15,6 +22,20 @@
 				$libri_categorie=get_categorie("Ultimi arrivi");				
 				$libri=get_libri($ID_Reparto, $libri_categorie);
 				deliver_response(200,"quantitativo", $libri);				
+			}
+			else if($name==2)
+			{
+				
+				$libri_sconti= get_Sconti();
+				$libri_sconti2=get_Sconti2($libri_sconti);
+				foreach($libri_sconti2 as $lb)
+				{
+					print_r($lb);
+				}
+				
+				
+				
+				
 			}
 
 		

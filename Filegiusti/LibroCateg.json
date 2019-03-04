@@ -1,11 +1,12 @@
 {"book":
+
 	[
-		{"libro":"01","categoria":"Remainders"},
-		{"libro":"02","categoria":"Da non perdere"},
-		{"libro":"03","categoria":"Offerte speciali"},
-		{"libro":"04","categoria":"Ultimi arrivi"},
-		{"libro":"05","categoria":"I più venduti"},
-		{"libro":"06","categoria":"Ultimi arrivi"}
+		{"libro":1,"categoria":"Remainders"},
+		{"libro":2,"categoria":"Da non perdere"},
+		{"libro":3,"categoria":"Offerte speciali"},
+		{"libro":4,"categoria":"Ultimi arrivi"},
+		{"libro":5,"categoria":"I più venduti"},
+		{"libro":6,"categoria":"Ultimi arrivi"}
 		
 	]
 }
